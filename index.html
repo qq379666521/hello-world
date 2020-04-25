@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习</title>
+		<script>
+			function showTime(){
+				document.getElementById("demo1").style.visibility="visible";
+				document.getElementById("demo1").innerHTML=Date();
+			}
+			function changeHtml(){
+				document.getElementById("demo1").innerHTML="change the time";
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="showTime()">显示时间</button>
+		<button onclick="changeHtml()">change</button>
+		<p id="demo1" style="visibility: hidden;"></p>
+	</body>
+</html>
